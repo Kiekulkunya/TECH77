@@ -162,6 +162,8 @@
 - User-uploaded content should be handled carefully and deleted after processing in future deployment
 
 18. Conclusion
+- Although AI is a strong predictor, human oversight remains critical.
+- While Model 2 (DistilBERT) scored highest on classification metrics, SocialTruth implements Model 3 (RAG + hallucination-aware system) to satisfy broader requirements: grounded explanations, evidence retrieval, uncertainty handling, and Responsible AI.
 - SocialTruth AI satisfies the final project expectations because it combines course concepts, multiple model comparisons, RAG, hallucination awareness, OCR-based multimodal input, Responsible AI, evaluation metrics, visualizations, and a working chatbot application.
 
 19. Future Work
