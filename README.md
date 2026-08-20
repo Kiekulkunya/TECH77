@@ -110,7 +110,8 @@
 - Go Live Chatbot (Prototype and MVP) with MCP reddit connection
 
 15. Implementation Details
-- 15.1 The Colab notebook builds the full pipeline:
+
+15.1 The Colab notebook builds the full pipeline:
   - Install libraries and create folders
   - Download and inspect fake/real data
   - Clean and combine text data
