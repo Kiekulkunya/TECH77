@@ -89,6 +89,7 @@
 - DistilBERT: modern Transformer model aligned with course topics
 - RAG + hallucination checker: improves factual grounding and makes the chatbot more responsible
 - OCR: allows social-media screenshots to be analyzed while keeping the project focused on text/RAG instead of unrelated image classification
+- **IMPORTANT MESSAGES: While Model 2 (DistilBERT) performed best for fake-news classification metrics, the final SocialTruth application uses Model 3 (RAG + hallucination-aware system) because the project goals is not only classificatino accuracy, but also grounded explanation, evidence retrieval, uncertainty handling, and Responsible AI.**
 
 13. Success Criteria
 - Examples of measurable success criteria:
