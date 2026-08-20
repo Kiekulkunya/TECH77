@@ -18,8 +18,6 @@
 - MCP (Reddit)
   
 
-
-
 5. Models / Systems Compared for fake/real news
 5.1 Model 1: TF-IDF + Logistic Regression baseline
  - Activation function: not directly used like a neural network.
@@ -170,3 +168,8 @@
 - Add human evaluation
 Expand Reddit MCP as social-context retrieval
 Add true image-forensics or AI-generated image detection as a separate future extension
+
+20. Live Chatbot Application looks like:
+Prototype: https://colab.research.google.com/drive/1R8VYcG7Q9-L-s3RXJxcW1IVcKWieWbUs?usp=sharing
+MVP: https://gemini.google.com/share/88ca2decc389?skid=d9de2296-e120-41fb-bbef-844a57ca0a73
+
