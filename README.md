@@ -110,21 +110,21 @@
 - Go Live Chatbot (Prototype and MVP) with MCP reddit connection
 
 15. Implementation Details
-15.1 The Colab notebook builds the full pipeline:
-- Install libraries and create folders
-- Download and inspect fake/real data
-- Clean and combine text data
-- Train/test split
-- Train Model 1
-- Train Model 2
-- Build RAG knowledge base
-- Build hallucination checker
-- Evaluate Model 3
-- Compare all models
-- Save artifacts to Google Drive
-- Add PCA and word cosine analysis
-- Add OCR prototype
-- Add Responsible AI policy
+- 15.1 The Colab notebook builds the full pipeline:
+  - Install libraries and create folders
+  - Download and inspect fake/real data
+  - Clean and combine text data
+  - Train/test split
+  - Train Model 1
+  - Train Model 2
+  - Build RAG knowledge base
+  - Build hallucination checker
+  - Evaluate Model 3
+  - Compare all models
+  - Save artifacts to Google Drive
+  - Add PCA and word cosine analysis
+  - Add OCR prototype
+  - Add Responsible AI policy
 
 15.2 Launch final Gradio SocialTruth chatbot
 - Live Chatbot Prototype on Gradio
@@ -148,6 +148,9 @@
 - Handling noisy OCR text from screenshots
 - Explaining Model 3 clearly as a system, not a separate trained model
 - Keeping the project focused on LLM/RAG instead of drifting into unrelated image detection
+- Although AI is a strong predictor, human oversight remains critical.
+- While Model 2 (DistilBERT) scored highest on classification metrics, SocialTruth implements Model 3 (RAG + hallucination-aware system) to satisfy broader requirements: grounded explanations, evidence retrieval, uncertainty handling, and Responsible AI.
+  
   
 17. Ethics, Bias, Privacy, Safety
 - The system is educational only
