@@ -41,12 +41,12 @@
 
 6. Datasets / Knowledge Base
 6.1 Main Fake/ Real news dataset for training/testing fake vs real classification
-  (Kaggle: https://www.kaggle.com/code/therealsampat/fake-news-detection/input?select=True.csv)
+  - (Kaggle: https://www.kaggle.com/code/therealsampat/fake-news-detection/input?select=True.csv)
 6.2 Extra news dataset used later as the RAG evidence knowledge base
-  (Kaggle : https://www.kaggle.com/code/ruchi798/how-do-you-recognize-fake-news/input)
+  - (Kaggle : https://www.kaggle.com/code/ruchi798/how-do-you-recognize-fake-news/input)
 6.3 Testing Chatbot: Images generation and Global News
-  https://globalnews.ca/news/12023905/earthquakes-intensity-2026/
-  https://globalnews.ca/news/12026846/donald-trump-tariff-pause/
+  - https://globalnews.ca/news/12023905/earthquakes-intensity-2026/
+  - https://globalnews.ca/news/12026846/donald-trump-tariff-pause/
 
 7. Exploratory Data Analysis (Basic EDA): Checking missing data, count, check type, and labelling
 
@@ -170,6 +170,6 @@ Expand Reddit MCP as social-context retrieval
 Add true image-forensics or AI-generated image detection as a separate future extension
 
 20. Live Chatbot Application looks like:
-Prototype: https://colab.research.google.com/drive/1R8VYcG7Q9-L-s3RXJxcW1IVcKWieWbUs?usp=sharing
-MVP: https://gemini.google.com/share/88ca2decc389?skid=d9de2296-e120-41fb-bbef-844a57ca0a73
+- Prototype: https://colab.research.google.com/drive/1R8VYcG7Q9-L-s3RXJxcW1IVcKWieWbUs?usp=sharing
+- MVP: https://gemini.google.com/share/88ca2decc389?skid=d9de2296-e120-41fb-bbef-844a57ca0a73
 
