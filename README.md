@@ -24,12 +24,19 @@
  - Logistic Regression uses a sigmoid-style probability function internally for binary classification.
  - Epochs: not used.
  - Max_Iter = 1000
+
+<img width="884" height="534" alt="Model 1_5" src="https://github.com/user-attachments/assets/03cbfbba-4228-45b3-b63c-5905224ba2cd" />
+<img width="884" height="534" alt="Model 1_4" src="https://github.com/user-attachments/assets/c3fe3063-6563-4764-85dd-f022be1a9ff7" />
+<img width="884" height="534" alt="Model 1_3" src="https://github.com/user-attachments/assets/dbbdc280-4730-41a2-8f0c-7430da14be59" />
+<img width="834" height="534" alt="Model 1_2" src="https://github.com/user-attachments/assets/f425868c-cc79-431c-b357-8008a2ddd88a" />
+
    
 5.2 Model 2: DistilBERT Transformer classifier
 - Activation functions: inside DistilBERT, the Transformer uses neural-network activations, mainly GELU.
 - The final classification layer outputs logits, then probabilities are calculated with "Softmax" due to Fake or Real label
 - Epoch = 2 (optimization)
 
+ 
 5.3 Model 3: RAG + Hallucination Checker
 - Activation function: none.
 - Epochs: none.
@@ -63,6 +70,10 @@
 9.8 Average top retrieved similarity
 9.9 Qualitative chatbot test cases
 9.10 Test Cases
+
+<img width="984" height="583" alt="Model 3" src="https://github.com/user-attachments/assets/13d2590b-8f86-4929-9618-53b147860885" />
+<img width="1179" height="583" alt="Comparison among 3 models" src="https://github.com/user-attachments/assets/c3d1f8f7-4dff-4db2-97eb-df005c0d3054" />
+
 
 10. The project includes:
 - Sample fake-news headlines
@@ -100,7 +111,9 @@
 - OCR pipeline successfully extracts enough text for verification in clear screenshots
 - Failure Criteria
 - Help understand how to applied LLMs and Chatbot in Real world.
-  
+
+  <img width="1865" height="898" alt="SocialTruth Chatbot 9 live" src="https://github.com/user-attachments/assets/36179765-e3d4-45e9-ba72-549daf307c89" />
+
 14. Examples of measurable failure criteria:
 - Low F1-score or poor fake-news recall
 - Retrieved evidence is irrelevant or low similarity
@@ -108,6 +121,8 @@
 - OCR text is too noisy or too short for verification
 - System fails to show uncertainty for weak evidence
 - Go Live Chatbot (Prototype and MVP) with MCP reddit connection
+
+
 
 15. Implementation Details
 
@@ -127,9 +142,17 @@
 - Add OCR prototype
 - Add Responsible AI policy
 
+  <img width="1148" height="765" alt="Wrod Distance Model 2" src="https://github.com/user-attachments/assets/71b0af5e-ded3-4a66-baa4-6c5c288c857c" />
+<img width="1642" height="633" alt="word cosine distance 2" src="https://github.com/user-attachments/assets/281b0035-e9ed-423e-b8fa-ba60d8d3f441" />
+
+
 15.2 Launch final Gradio SocialTruth chatbot
 - Live Chatbot Prototype on Gradio
 - Live Chatbot MVP Application hosted by gemini
+
+- <img width="1702" height="888" alt="Chatbot OCR3" src="https://github.com/user-attachments/assets/cb591509-3e49-4ebc-a10f-3b4062a797bc" />
+
+<img width="1062" height="903" alt="SocialTruth Gemini" src="https://github.com/user-attachments/assets/dc2ed855-1395-414b-b412-b22721ead62b" />
 
 15.3 The final prototype is the SocialTruth Live Chat Application, which includes:
 - Text detection
