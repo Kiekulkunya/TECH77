@@ -1,6 +1,6 @@
 1. **Project Title "SocialTruth AI: Hallucination-Aware Fake News and OCR Screenshot Verification Chatbot"**
 
-2. Objective: Build an end-to-end chatbot that detects suspicious news text, retrieves supporting/contradicting evidence, checks hallucination risk, and verifies OCR-extracted text from social-media screenshots.
+2. Objective: Build an end-to-end chatbot that detects suspicious news text, retrieves supporting/contradicting evidence, checks hallucination risk, and verifies OCR-extracted text from social-media screenshots and launched live SocialTruth application via gradio and hosted by gemini for web base for real-world problem.
 
 3. Real-World Relevance:  The project addresses misinformation on news articles and social media. Instead of only saying “fake” or “real,” the system gives cautious, evidence-aware judgments such as Likely Fake, Likely Real, Unverifiable, or Needs Verification. The live Chatbot is integrating quantitative for LLMs and qualitative of Responsible AI into algorithm. 
 
@@ -10,13 +10,12 @@
 - Transformer model using DistilBERT
 - Hugging Face transformers
 - Retrieval-Augmented Generation (RAG) style evidence retrieval
-- Cosine similarity retrieval (Launch on Tensorflow and UI react)
+- Cosine similarity retrieval (UI react)
 - Hallucination-aware response design
 - Responsible AI and uncertainty handling
 - OCR as a lightweight multimodal extension
 - Chatbot Application Prototype
-- MCP (Reddit)
-  
+- Auto news feeding with Reddit API Model Context Protocol (MCP)   
 
 5. Models / Systems Compared for fake/real news
 5.1 Model 1: TF-IDF + Logistic Regression baseline
@@ -119,6 +118,7 @@
 - OCR pipeline successfully extracts enough text for verification in clear screenshots
 - Failure Criteria
 - Help understand how to applied LLMs and Chatbot in Real world.
+- Successfully launched prototype SocialTruth development application from version 1 to version 3 and migrate to MVP via gemini host.
 
   <img width="1865" height="898" alt="SocialTruth Chatbot 9 live" src="https://github.com/user-attachments/assets/36179765-e3d4-45e9-ba72-549daf307c89" />
 
@@ -150,7 +150,8 @@
 - Add OCR prototype
 - Add Responsible AI policy
 
--PCA 
+Principle Component Analysis (PCA) with word distance and word coside solution.
+
 <img width="1148" height="765" alt="Wrod Distance Model 2" src="https://github.com/user-attachments/assets/71b0af5e-ded3-4a66-baa4-6c5c288c857c" />
 <img width="1642" height="633" alt="word cosine distance 2" src="https://github.com/user-attachments/assets/281b0035-e9ed-423e-b8fa-ba60d8d3f441" />
 <img width="1086" height="712" alt="PCA" src="https://github.com/user-attachments/assets/9dd744cc-ec1e-4896-8fdb-eb8b0898e820" />
@@ -163,7 +164,7 @@
 - Live Chatbot Prototype on Gradio
 - Live Chatbot MVP Application hosted by gemini
 
-- <img width="1702" height="888" alt="Chatbot OCR3" src="https://github.com/user-attachments/assets/cb591509-3e49-4ebc-a10f-3b4062a797bc" />
+<img width="1702" height="888" alt="Chatbot OCR3" src="https://github.com/user-attachments/assets/cb591509-3e49-4ebc-a10f-3b4062a797bc" />
 
 <img width="1062" height="903" alt="SocialTruth Gemini" src="https://github.com/user-attachments/assets/dc2ed855-1395-414b-b412-b22721ead62b" />
 
@@ -213,6 +214,7 @@ Expand Reddit MCP as social-context retrieval
 Add true image-forensics or AI-generated image detection as a separate future extension
 
 20. Live Chatbot Application looks like:
+    
 - Prototype: https://colab.research.google.com/drive/1R8VYcG7Q9-L-s3RXJxcW1IVcKWieWbUs?usp=sharing
 - MVP: https://gemini.google.com/share/88ca2decc389?skid=d9de2296-e120-41fb-bbef-844a57ca0a73
 
