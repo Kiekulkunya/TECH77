@@ -24,7 +24,8 @@
  - Logistic Regression uses a sigmoid-style probability function internally for binary classification.
  - Epochs: not used.
  - Max_Iter = 1000
-
+   
+<img width="628" height="534" alt="Confusion Model 1" src="https://github.com/user-attachments/assets/dbfdeefb-47a6-4709-8ac2-64ccc7cf18ec" />
 <img width="884" height="534" alt="Model 1_5" src="https://github.com/user-attachments/assets/03cbfbba-4228-45b3-b63c-5905224ba2cd" />
 <img width="884" height="534" alt="Model 1_4" src="https://github.com/user-attachments/assets/c3fe3063-6563-4764-85dd-f022be1a9ff7" />
 <img width="884" height="534" alt="Model 1_3" src="https://github.com/user-attachments/assets/dbbdc280-4730-41a2-8f0c-7430da14be59" />
@@ -36,7 +37,9 @@
 - The final classification layer outputs logits, then probabilities are calculated with "Softmax" due to Fake or Real label
 - Epoch = 2 (optimization)
 
- 
+<img width="843" height="282" alt="Model 2_1" src="https://github.com/user-attachments/assets/9aad5619-3609-49b9-813e-e2ce255beda4" />
+<img width="1035" height="287" alt="Model 2" src="https://github.com/user-attachments/assets/ccb2aabf-8955-4784-8a12-bc3529a4101e" />
+
 5.3 Model 3: RAG + Hallucination Checker
 - Activation function: none.
 - Epochs: none.
@@ -45,6 +48,11 @@
 - cosine similarity
 - rule-based hallucination checker
 (Important: Model 3 is not a separate trained neural network. It is an end-to-end system combining classifier prediction, retrieved evidence, hallucination checking, and responsible response generation.)
+
+<img width="1247" height="462" alt="Model 3_1" src="https://github.com/user-attachments/assets/2b56abab-2e49-49da-b8e5-0ac0d2118fca" />
+<img width="984" height="583" alt="Model 3" src="https://github.com/user-attachments/assets/b6a94945-42b4-40fe-98a0-1ea8ed304513" />
+
+
 
 6. Datasets / Knowledge Base
 6.1 Main Fake/ Real news dataset for training/testing fake vs real classification
@@ -142,8 +150,13 @@
 - Add OCR prototype
 - Add Responsible AI policy
 
-  <img width="1148" height="765" alt="Wrod Distance Model 2" src="https://github.com/user-attachments/assets/71b0af5e-ded3-4a66-baa4-6c5c288c857c" />
+-PCA 
+<img width="1148" height="765" alt="Wrod Distance Model 2" src="https://github.com/user-attachments/assets/71b0af5e-ded3-4a66-baa4-6c5c288c857c" />
 <img width="1642" height="633" alt="word cosine distance 2" src="https://github.com/user-attachments/assets/281b0035-e9ed-423e-b8fa-ba60d8d3f441" />
+<img width="1086" height="712" alt="PCA" src="https://github.com/user-attachments/assets/9dd744cc-ec1e-4896-8fdb-eb8b0898e820" />
+<img width="1724" height="525" alt="newplot" src="https://github.com/user-attachments/assets/dabb7688-59bc-4808-8cba-546e5fc8b4e6" />
+<img width="1724" height="525" alt="newplot (2)" src="https://github.com/user-attachments/assets/7d802738-7449-4e08-abe5-40d53a630182" />
+<img width="1712" height="525" alt="newplot (1)" src="https://github.com/user-attachments/assets/c0ab7acd-3fa2-4462-9eeb-a238ae523fe3" />
 
 
 15.2 Launch final Gradio SocialTruth chatbot
