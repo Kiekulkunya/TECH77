@@ -1,4 +1,4 @@
-1. **Project Title "SocialTruth AI: Hallucination-Aware Fake News and OCR Screenshot Verification Chatbot"**
+1. **Project Title "Live SocialTruth AI: Hallucination-Aware Fake News and OCR Screenshot Verification Chatbot"**
 
 2. Objective: Build an end-to-end chatbot that detects suspicious news text, retrieves supporting/contradicting evidence, checks hallucination risk, and verifies OCR-extracted text from social-media screenshots and launched live SocialTruth application via gradio and hosted by gemini for web base for real-world problem.
 
