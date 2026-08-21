@@ -1,10 +1,27 @@
-1. **Project Title "Live SocialTruth AI: Hallucination-Aware Fake News and OCR Screenshot Verification Chatbot"**
+**Project Title "Live SocialTruth AI: Hallucination-Aware Fake News and OCR Screenshot Verification Chatbot"**
 
-2. Objective: Build an end-to-end chatbot that detects suspicious news text, retrieves supporting/contradicting evidence, checks hallucination risk, and verifies OCR-extracted text from social-media screenshots and launched live SocialTruth application via gradio and hosted by gemini for web base for real-world problem.
+1. Project Milestones: (6-7 Days)
+1.1 Data Preparation : 1 days
+1.2 Working on Coding using colab : 3 days
+Part 1: Data uploading, Data Checking, and Data Preparation
+Part 2: Training, Testing, and Validating split (70/15/15) Across 3 Models
+Part 3: PCA-Style Text Visualization Using TruncatedSVD
+Part 4: Launched Tex-SocialTruth Chatbot 1.0 (Prototype)
+Part 5: Embedded Optical Character Recognition for Chatbot extension
+Part 6: Integrated Responsible AI with evalaution features to Chatbot
+Part 7: Launched Text and OCR- SocialTruth Chatbot 2.0 (Prototype)
+Part 8: Launched Live Text and OCR-SocialTruth Chatbot 3.0 (Prototype)
+Part 9: Main Findings and Key Results
+Part 10: Key Takeaways
+1.3 Working on ChatPRD for product manager report, scope, ideas, business goal, user target, MCP, and UI/UX : 1 day
+1.4 Working on MVP Live Chat hosted by Gemini. Migrate python code, logic, fine-tuning, testing, validating, approve the MVP product: 1 Day
+      
 
-3. Real-World Relevance:  The project addresses misinformation on news articles and social media. Instead of only saying “fake” or “real,” the system gives cautious, evidence-aware judgments such as Likely Fake, Likely Real, Unverifiable, or Needs Verification. The live Chatbot is integrating quantitative for LLMs and qualitative of Responsible AI into algorithm. 
+3. Objective: Build an end-to-end chatbot that detects suspicious news text, retrieves supporting/contradicting evidence, checks hallucination risk, and verifies OCR-extracted text from social-media screenshots and launched live SocialTruth application via gradio and hosted by gemini for web base for real-world problem.
 
-4. Course Concepts Applied
+4. Real-World Relevance:  The project addresses misinformation on news articles and social media. Instead of only saying “fake” or “real,” the system gives cautious, evidence-aware judgments such as Likely Fake, Likely Real, Unverifiable, or Needs Verification. The live Chatbot is integrating quantitative for LLMs and qualitative of Responsible AI into algorithm. 
+
+5. Course Concepts Applied
 - NLP preprocessing and text classification
 - TF-IDF text representation
 - Transformer model using DistilBERT
