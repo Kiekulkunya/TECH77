@@ -2,9 +2,9 @@
 
 1. Project Milestones: (6-7 Days)
 
-1.1 Data Preparation : 1 days
+ 1.1 Data Preparation : 1 days
  
-1.2 Working on Coding using colab : 3 days
+ 1.2 Working on Coding using colab : 3 days
  - Part 1: Data uploading, Data Checking, and Data Preparation
  - Part 2: Training, Testing, and Validating split (70/15/15) Across 3 Models
  - Part 3: PCA-Style Text Visualization Using TruncatedSVD
@@ -16,9 +16,9 @@
  - Part 9: Main Findings and Key Results
  - Part 10: Key Takeaways
 
-1.3 Working on ChatPRD for product manager report, scope, ideas, business goal, user target, MCP, and UI/UX : 1 day
+ 1.3 Working on ChatPRD for product manager report, scope, ideas, business goal, user target, MCP, and UI/UX : 1 day
 
-1.4 Working on MVP Live Chat hosted by Gemini. Migrate python code, logic, fine-tuning, testing, validating, approve the MVP product: 1 Day
+ 1.4 Working on MVP Live Chat hosted by Gemini. Migrate python code, logic, fine-tuning, testing, validating, approve the MVP product: 1 Day
       
 
 2. Objective: Build an end-to-end chatbot that detects suspicious news text, retrieves supporting/contradicting evidence, checks hallucination risk, and verifies OCR-extracted text from social-media screenshots and launched live SocialTruth application via gradio and hosted by gemini for web base for real-world problem.
